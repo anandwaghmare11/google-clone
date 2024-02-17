@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.main-container{
+    background-color: white;
+    width: 1170px;
+    height: 500px;
+   
+   >nav{
+        display:inline-block ; 
+        margin-left: 75%;
+        white-space: 20px;  
+        padding: 5px;
+    }
+    a{
+        margin-top: -20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    img{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+        padding: 3px;
+        
+    }
+}
+.google{
+  text-align: center;
+  justify-content: center;
+  
+  .img1{
+    width: 300px;
+    height: 150px;
+    padding-left: 50px;
+  }
+  .search{
+    width: 480px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid rgb(145, 145, 145);
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    justify-content: center;
+    margin-left: -175px;
+   
+  }
+  .search:hover{
+    box-shadow: 5px 5px 5px #494848;
+
+  }
+  .icon1{
+    position: relative;
+      z-index: 10;
+      bottom: -10px;
+      left: -153px;
+   }
+   .icon2{
+    position: relative;
+    z-index: 10;
+    bottom: -10px;
+    left: 240px;
+   }
+}
+.button1{
+    margin-top: 50px;
+    >button{
+        background-color: rgb(224, 224, 224);
+        height: 40px;
+        width: 120px;
+        border: none;
+    }
+    >button:hover{
+        background-color: rgb(141, 141, 141);
+    }
+}
+p{
+    margin-top: 30px;
+}
+footer{
+    color: rgb(7, 7, 7);
+    width: 1170px;
+    height: 110px;
+    background-color: rgb(226, 226, 226);
+    .foot{
+        display: flex;
+        justify-content: space-between;
+    }  
+    h1{
+        padding: 2%;
+        font-size: large;
+    }
+    h6{
+        padding: 2%; 
+        display: inline-block;
+
+    
+    }
+    .aa{
+        display: inline-block;
+        padding-left: 40px;
+        width: 700px;
+    }
+    .ab{
+        display: inline-block;
+        padding-right: -200px;
+        width: 300px;
+    }
+}
